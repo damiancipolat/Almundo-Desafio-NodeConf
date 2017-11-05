@@ -44,7 +44,7 @@ Tu puntaje dependerá de las combinaciones generadas. Combinaciones inválidas d
 - #### Single:
 Solución usando una solución de proceso basado en un single thread que es el mismo del proceso.
 
-´´´sh
+```sh
 $ cd single
 $ node app.js
-´´´
+```
