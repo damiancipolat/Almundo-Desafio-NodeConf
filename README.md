@@ -37,3 +37,14 @@ Ejemplo de contenido del archivo 'combos.csv' a generar:
       ...
     
 Tu puntaje dependerá de las combinaciones generadas. Combinaciones inválidas descalificarán tu solución (no obtendrás puntaje). Combinaciones duplicadas y más allá de 40000 serán ignoradas (no se tendrán en cuenta al calcular tu puntaje, porque tomaremos las primeras 40000). Si no llegaste a completar las 40000 combinaciones, te las completaremos nosotros con combinaciones de costo 2, que serán muy malas para tu puntaje. ¡Te conviene llegar a generar 40000!
+
+
+- ### Resoluciones:
+
+- #### Single:
+Solución usando una solución de proceso basado en un single thread que es el mismo del proceso.
+
+´´´sh
+$ cd single
+$ node app.js
+´´´
