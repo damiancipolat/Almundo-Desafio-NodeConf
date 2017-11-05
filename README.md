@@ -48,3 +48,8 @@ Solución usando una solución de proceso basado en un single thread que es el m
 $ cd single
 $ node app.js
 ```
+
+> Este no resulto ser exitoso debido a que excedia los 10 segundos de ejecución.
+
+
+
