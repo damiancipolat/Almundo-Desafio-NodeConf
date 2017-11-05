@@ -49,7 +49,7 @@ $ cd single
 $ node app.js
 ```
 
-> Este no resulto ser exitoso debido a que excedia los 10 segundos de ejecución.
+> Este script no resulto ser exitoso debido a que excedia los 10 segundos de ejecución.
 
 
 
