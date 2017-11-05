@@ -2,7 +2,7 @@
 > Repositorio con mis resoluciones al desafio propuesto por Almundo.com https://almundo.com.ar/nodeconf17/home
 
 
-## Enunciado "Node Challenge":
+- ## Enunciado "Node Challenge":
 Un viaje típico en Almundo incluye un destino, un vuelo y un hotel. A partir de estos tres componentes, generamos paquetes, diseñados para ofrecer las mejores experiencias de viaje a nuestros clientes. ¡Este ejercicio te desafía a crear paquetes atractivos para nuestros viajeros!
 
 El set de datos para esta competencia es un archivo en formato CSV con nombre 'dataset.csv' y usando ',' como separador. Contiene vuelos y hoteles.
