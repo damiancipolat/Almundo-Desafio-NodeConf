@@ -1,7 +1,8 @@
 # Almundo-Desafio-NodeConf
 > Repositorio con mis resoluciones al desafio propuesto por Almundo.com https://almundo.com.ar/nodeconf17/home
 
-## Enunciado "Node Challenge":
+
+### Enunciado "Node Challenge":
 Un viaje típico en Almundo incluye un destino, un vuelo y un hotel. A partir de estos tres componentes, generamos paquetes, diseñados para ofrecer las mejores experiencias de viaje a nuestros clientes. ¡Este ejercicio te desafía a crear paquetes atractivos para nuestros viajeros!
 
 El set de datos para esta competencia es un archivo en formato CSV con nombre 'dataset.csv' y usando ',' como separador. Contiene vuelos y hoteles.
@@ -36,3 +37,14 @@ Ejemplo de contenido del archivo 'combos.csv' a generar:
       ...
     
 Tu puntaje dependerá de las combinaciones generadas. Combinaciones inválidas descalificarán tu solución (no obtendrás puntaje). Combinaciones duplicadas y más allá de 40000 serán ignoradas (no se tendrán en cuenta al calcular tu puntaje, porque tomaremos las primeras 40000). Si no llegaste a completar las 40000 combinaciones, te las completaremos nosotros con combinaciones de costo 2, que serán muy malas para tu puntaje. ¡Te conviene llegar a generar 40000!
+
+
+- ### Resoluciones:
+
+#### Single:
+Solución usando una solución de proceso basado en un single thread que es el mismo del proceso.
+
+```sh
+$ cd single
+$ node app.js
+```
