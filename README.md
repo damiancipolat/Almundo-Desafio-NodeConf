@@ -56,7 +56,16 @@ Al finalizar la combinatoria de cada proceso, se comunica con el master y envia 
 esperando que el resto de los proceso children termine y cuando esto suceda se vuelque el archivo.
 
 ```sh
-$ cd parallerl
+$ cd parallel
 $ node app.js
 ```
 
+#### Single:
+Solución usando una solución de proceso basado en un single thread que es el mismo del proceso.
+
+```sh
+$ cd single
+$ node app.js
+```
+
+> Ambos scripts cumplen con lo pedido y logran hacer las combinatorios como plantea el enunciado, pero no alcazan a terminarla en menos de 10 segundos, siendo el tiempo maximo que propone el desafio. Me queda pendiente encontrar una solución que cumpla con dicho tiempo.
