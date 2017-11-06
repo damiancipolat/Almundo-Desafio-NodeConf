@@ -63,5 +63,13 @@ $ cd parallel
 $ node app.js
 ```
 
+#### Parallel - streams:
+Solución usando paralelismo, pero creando un stream para hacer el guardado en el archivo, cuando se recibe el fin de cada proceso children, se escribe en el archivo, por lo cual es mejor solución que la anterior, ya que se evita el dump final.
+
+```sh
+$ cd parallel-streams
+$ node app.js
+```
+
 > Ambos scripts cumplen con lo pedido y logran hacer las combinatorias como plantea el enunciado, pero no alcazan a terminarla en menos de 10 segundos, siendo el tiempo maximo que propone el desafio. 
 Me queda pendiente encontrar una solución que cumpla con dicho tiempo.
