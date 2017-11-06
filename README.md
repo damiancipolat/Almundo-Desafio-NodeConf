@@ -1,4 +1,7 @@
 # Almundo-Desafio-NodeConf
+
+![N|Solid](https://2016.nodeconf.com.ar/images/logo-cel.svg)
+
 > Repositorio con mis resoluciones al desafio propuesto por Almundo.com https://almundo.com.ar/nodeconf17/home
 
 
@@ -42,14 +45,23 @@ Tu puntaje dependerá de las combinaciones generadas. Combinaciones inválidas d
 - ### Resoluciones:
 
 #### Single:
-Solución usando una solución de proceso basado en un single thread que es el mismo del proceso.
+Solución usando proceso basado en un single thread que es el mismo del proceso.
 
 ```sh
 $ cd single
 $ node app.js
 ```
 
-> Este script no resulto ser exitoso debido a que excedia los 10 segundos de ejecución.
+#### Parallel:
+Solución usando un escenario que crea 4 procesos hijos y uno master, en este caso se usa el paralelismo entre procesos
+hijos para repartir en iguales cantidades los destinos para crear las combinaciones de vuelo más hotel. 
+Al finalizar la combinatoria de cada proceso, se comunica con el master y envia el lote para que sea almacenado en un bufer,
+esperando que el resto de los proceso children termine y cuando esto suceda se vuelque el archivo.
 
+```sh
+$ cd parallel
+$ node app.js
+```
 
-
+> Ambos scripts cumplen con lo pedido y logran hacer las combinatorias como plantea el enunciado, pero no alcazan a terminarla en menos de 10 segundos, siendo el tiempo maximo que propone el desafio. 
+Me queda pendiente encontrar una solución que cumpla con dicho tiempo.
