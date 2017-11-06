@@ -1,6 +1,6 @@
 # Almundo-Desafio-NodeConf
 
-![N|solid)(https://2016.nodeconf.com.ar/images/logo-cel.svg)
+![N|Solid](https://2016.nodeconf.com.ar/images/logo-cel.svg)
 
 > Repositorio con mis resoluciones al desafio propuesto por Almundo.com https://almundo.com.ar/nodeconf17/home
 
